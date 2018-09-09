@@ -1,3 +1,5 @@
+#Better result than Knn
+
 import pandas as pd
 
 base = pd.read_csv('adult.data')
@@ -41,4 +43,3 @@ matriz = confusion_matrix(classe_teste, previsoes)
 import collections
 collections.Counter(classe_teste)
 
-#Better result than Knn
