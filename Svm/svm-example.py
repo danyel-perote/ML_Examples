@@ -35,4 +35,4 @@ resultados = cross_val_score(classificador, previsores, classe, cv=10)
 classificador.fit(previsores, classe)
 
 import pickle
-pickle.dump(classificador, open('svm_classifier', 'wb'))
+pickle.dump(classificador, open('svm_classifier.sav', 'wb'))
