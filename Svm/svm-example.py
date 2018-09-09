@@ -40,3 +40,5 @@ matriz = confusion_matrix(classe_teste, previsoes)
 
 import collections
 collections.Counter(classe_teste)
+
+#Better result than Knn
